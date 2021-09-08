@@ -1,3 +1,67 @@
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap');
+:root{
+	--black: black;
+	--blue: blue;
+}
+*{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+	text-decoration: none!important;
+	outline: none;
+	transition: .3s;
+}
+header{
+	width: 100%;
+	padding: 20px 10px;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+}
+header .container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+header .container .logo{
+	color: var(--black);
+	font-size: 30px;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+header .container .logo span{
+	color: var(--blue);
+}
+header .container ul{
+	margin: 0px;
+	padding: 0px;
+}
+header .container ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+header .container ul li a{
+	color: var(--black);
+	padding-left: 30px;
+	font-size: 16px;
+	transition: .3s ease;
+}
+header .container ul li a:hover{
+	color: var(--blue);
+}
+header .fa-bars{
+	color: var(--blue);
+	cursor: pointer;
+	font-size: 30px;
+	display: none;
+}
+header .fa-times{
+	transform: rotate(180deg);	
+}
+header .nav-toggle{
+	top: 30%!important;
+	opacity: 1!important;
+}
