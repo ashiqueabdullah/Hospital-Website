@@ -66,6 +66,9 @@ header .nav-toggle{
 	top: 30%!important;
 	opacity: 1!important;
 }
+.header-active{
+	box-shadow: 1px 10px 31px -9px rgba(0,0,0,0.75);
+}
 
 /* Home section Start */
 .home{
@@ -107,4 +110,17 @@ header .nav-toggle{
 }
 .home a.mybtn:hover:before{
 	bottom: 10%;
+}
+/* About Section Start */
+.about{
+	background-color: #eee;
+}
+.about .box{
+	margin-top: 30px;
+}
+.about .box h3{
+	font-size: 25px;
+}
+.about .box h3 i{
+	color: var(--blue);
 }
