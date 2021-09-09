@@ -26,5 +26,7 @@
   header .nav ul li a{
     display: block;
   }
-  
+  .home a.mybtn{
+    margin: 20px auto;
+  }
 }
