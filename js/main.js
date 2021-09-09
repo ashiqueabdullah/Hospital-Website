@@ -15,5 +15,13 @@ $(document).ready(function () {
  	 	$('header').removeClass('header-active');
  	 }
  	 });
+
+ 	 $('.facilities').magnificPopup({
+ 	 	delegate:'a',
+ 	 	type:'image',
+ 	 	gallery:{
+ 	 		enabled:true
+ 	 	}
+ 	 });
  	 
 });

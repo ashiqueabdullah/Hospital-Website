@@ -124,3 +124,34 @@ header .nav-toggle{
 .about .box h3 i{
 	color: var(--blue);
 }
+/* Facilities Section Start */
+.facilities{
+	padding: 80px 0px;
+}
+.facilities h3{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size:40px;
+}
+.facilities h3 span{
+	color: var(--blue);
+}
+.facilities .context-box{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+.facilities .context-box .box{
+	width: 25%!important;
+	height: 180px;
+	overflow: hidden;
+	padding: 5px;
+}
+.facilities .context-box .box img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.facilities .context-box .box:hover img{
+	transform: scale(1.5); 
+}
